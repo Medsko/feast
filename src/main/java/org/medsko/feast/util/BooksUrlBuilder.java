@@ -1,4 +1,4 @@
-package org.medsko.taco.cloud.util;
+package org.medsko.feast.util;
 
 import java.util.Map;
 

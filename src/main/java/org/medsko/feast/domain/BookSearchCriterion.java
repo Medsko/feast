@@ -1,4 +1,4 @@
-package org.medsko.taco.cloud.domain;
+package org.medsko.feast.domain;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package org.medsko.taco.cloud.dto;
+package org.medsko.feast.dto;
 
 import lombok.Data;
 

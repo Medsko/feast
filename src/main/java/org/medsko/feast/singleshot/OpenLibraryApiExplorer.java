@@ -1,8 +1,8 @@
-package org.medsko.taco.cloud.singleshot;
+package org.medsko.feast.singleshot;
 
-import org.medsko.taco.cloud.client.OpenLibraryClient;
-import org.medsko.taco.cloud.domain.Book;
-import org.medsko.taco.cloud.domain.BookSearchCriterion;
+import org.medsko.feast.client.OpenLibraryClient;
+import org.medsko.feast.domain.Book;
+import org.medsko.feast.domain.BookSearchCriterion;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
@@ -19,7 +19,7 @@ public class OpenLibraryApiExplorer implements ApplicationRunner {
     }
 
     @Override
-    public void run(ApplicationArguments args) throws Exception {
+    public void run(ApplicationArguments args) {
         client.searchForCleanCode();
     }
 

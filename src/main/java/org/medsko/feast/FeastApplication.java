@@ -1,13 +1,13 @@
-package org.medsko.taco.cloud;
+package org.medsko.feast;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TacoCloudApplication {
+public class FeastApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TacoCloudApplication.class, args);
+        SpringApplication.run(FeastApplication.class, args);
     }
 
 }

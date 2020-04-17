@@ -1,4 +1,4 @@
-package org.medsko.taco.cloud.util;
+package org.medsko.feast.util;
 
 import lombok.extern.slf4j.Slf4j;
 

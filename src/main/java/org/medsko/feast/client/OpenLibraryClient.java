@@ -1,11 +1,11 @@
-package org.medsko.taco.cloud.client;
+package org.medsko.feast.client;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.medsko.taco.cloud.domain.Book;
-import org.medsko.taco.cloud.domain.BookSearchCriterion;
-import org.medsko.taco.cloud.dto.SearchResponse;
-import org.medsko.taco.cloud.util.SearchUrlBuilder;
+import org.medsko.feast.domain.Book;
+import org.medsko.feast.domain.BookSearchCriterion;
+import org.medsko.feast.dto.SearchResponse;
+import org.medsko.feast.util.SearchUrlBuilder;
 import org.springframework.hateoas.MediaTypes;
 import org.springframework.hateoas.client.Traverson;
 import org.springframework.http.ResponseEntity;
