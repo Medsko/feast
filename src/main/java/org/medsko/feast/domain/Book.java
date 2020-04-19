@@ -25,6 +25,10 @@ public class Book {
     private String subTitle;
     private String author;
 
+    public void addSearchCriterion(BookSearchCriterion criterion) {
+        searchCriteria.add(criterion);
+    }
+
     /**
      * Tests whether this Book object has enough data to look up the book. This is the case if at least one of the four
      * identifying fields is filled.
