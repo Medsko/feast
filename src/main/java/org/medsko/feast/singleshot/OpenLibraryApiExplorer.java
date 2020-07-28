@@ -5,9 +5,8 @@ import org.medsko.feast.domain.Book;
 import org.medsko.feast.domain.BookSearchCriterion;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
-import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class OpenLibraryApiExplorer implements ApplicationRunner {
 
     private final static String TEST_ISBN = "9788025122853";
