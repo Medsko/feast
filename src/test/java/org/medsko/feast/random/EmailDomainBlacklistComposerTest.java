@@ -1,6 +1,7 @@
 package org.medsko.feast.random;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -10,7 +11,8 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class EmailDomainBlacklistComposerTest {
+@Disabled
+class EmailDomainBlacklistComposerTest {
 
     private final static String INPUT_DIRECTORY = "C:\\Users\\melle\\Documents\\input";
     private final static String INPUT_FILE = "popularPrivateEmailDomains.txt";
